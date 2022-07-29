@@ -1,0 +1,61 @@
+.tableBox{
+    display: flex;
+    flex-direction: column;
+}
+.academico, .ingles, .tecnica, .treinos{
+    display: none;
+    flex-direction: column;
+}
+/*=========================================*/
+.ButtonsBox{
+    display: flex;
+    margin: 20px 0;
+}
+.ButtonsBox button{
+    margin-right: 20px;
+    color: black;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+}
+.ButtonsBox button:nth-child(1){
+    margin-left: 75px;
+}
+.ButtonsBox img{
+    margin-left: -4px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+/*==========================================*/
+.TableBody{
+    width: 95%;
+    align-self: center;
+    transition: 0.6s;
+}
+.TableBody th{
+    text-align: center;
+    border: 1px solid rgb(163, 163, 163);
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    padding: 5px 5px;
+    font-weight: 400;
+}
+.TableBody td{
+    text-align: center;
+    border: 1px solid rgb(163, 163, 163);
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    padding: 5px 5px;
+}
+.TableBody .tableNameUser{
+    text-align: left;
+}
+.TableBody img{
+    cursor: pointer;
+}
+.TableBody img:hover{
+    box-shadow: 3px 3px 2px rgb(109, 108, 108)
+}
+/*==========================================*/

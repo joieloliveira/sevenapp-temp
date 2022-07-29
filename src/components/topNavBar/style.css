@@ -1,0 +1,12 @@
+.abasTable{
+    display: flex;
+    align-items: center;
+    background-color: #3C3D3C;
+}
+.abasTable button{
+    margin: 10px 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+}

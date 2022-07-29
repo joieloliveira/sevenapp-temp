@@ -1,0 +1,9 @@
+.buttonAddNovoAtleta{
+  width: 180px;
+  border: none;
+  color: black;
+  border-radius: 0.3rem;
+  background-color: #C2FF47;
+  padding: 8px 12px;
+  margin: 20px 0 0 20px;
+}

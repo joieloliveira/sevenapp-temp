@@ -1,0 +1,29 @@
+.modalAddNovoAtleta form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #1E2024;
+}
+.modalAddNovoAtleta form p,
+label {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+}
+.modalAddNovoAtleta form p:nth-child(1){
+    text-align: center;
+}
+.modalAddNovoAtleta form button{
+    background: #C2FF47;
+    border-radius: 0.3rem;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 20px 0 5px 0;
+}
+.modalAddNovoAtleta form input{
+    border: none;
+    border-radius: 0.3rem;
+    background: #D9D9D9;
+    margin-bottom: 10px;
+}
